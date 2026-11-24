@@ -157,7 +157,7 @@ const faces=['⏱️','🚶','🚦','↰','🚧'];
 // 本版本不送出任何資料。將來經核准接入正式統計平台時，可監聽此事件。
 // 統計功能：機關核准與完成隱私告知後，才填入部署網址以啟用。
 // 設定為空字串時：不發送任何統計資料，離線測驗完全正常。
-const ANALYTICS_ENDPOINT = '';
+const ANALYTICS_ENDPOINT = 'https://script.google.com/macros/s/AKfycbzwxBLQGhy8Q_8RT5MiCZfX_IDImvRx3VYbskquSxyeLvCawIbMstBRuLiMTpAupya-fw/exec';
 const ANALYTICS_ON = /^https:\/\/script\.google\.com\/macros\/s\//.test(ANALYTICS_ENDPOINT);
 function track(event,detail={}){
   try {
